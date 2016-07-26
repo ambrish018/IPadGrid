@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680A8D2C1D47659A00645C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A8D2B1D47659A00645C07 /* AppDelegate.swift */; };
+		680A8D2E1D47659A00645C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A8D2D1D47659A00645C07 /* ViewController.swift */; };
+		680A8D311D47659A00645C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680A8D2F1D47659A00645C07 /* Main.storyboard */; };
+		680A8D331D47659A00645C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680A8D321D47659A00645C07 /* Assets.xcassets */; };
+		680A8D361D47659A00645C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680A8D341D47659A00645C07 /* LaunchScreen.storyboard */; };
+		680A8D3E1D4765DE00645C07 /* AmbLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A8D3D1D4765DE00645C07 /* AmbLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		680A8D281D47659900645C07 /* IPadGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPadGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680A8D2B1D47659A00645C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		680A8D2D1D47659A00645C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		680A8D301D47659A00645C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		680A8D321D47659A00645C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680A8D351D47659A00645C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		680A8D371D47659A00645C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680A8D3D1D4765DE00645C07 /* AmbLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680A8D251D47659900645C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680A8D1F1D47659900645C07 = {
+			isa = PBXGroup;
+			children = (
+				680A8D2A1D47659A00645C07 /* IPadGrid */,
+				680A8D291D47659900645C07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680A8D291D47659900645C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680A8D281D47659900645C07 /* IPadGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680A8D2A1D47659A00645C07 /* IPadGrid */ = {
+			isa = PBXGroup;
+			children = (
+				680A8D2B1D47659A00645C07 /* AppDelegate.swift */,
+				680A8D2D1D47659A00645C07 /* ViewController.swift */,
+				680A8D3D1D4765DE00645C07 /* AmbLayout.swift */,
+				680A8D2F1D47659A00645C07 /* Main.storyboard */,
+				680A8D321D47659A00645C07 /* Assets.xcassets */,
+				680A8D341D47659A00645C07 /* LaunchScreen.storyboard */,
+				680A8D371D47659A00645C07 /* Info.plist */,
+			);
+			path = IPadGrid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680A8D271D47659900645C07 /* IPadGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680A8D3A1D47659A00645C07 /* Build configuration list for PBXNativeTarget "IPadGrid" */;
+			buildPhases = (
+				680A8D241D47659900645C07 /* Sources */,
+				680A8D251D47659900645C07 /* Frameworks */,
+				680A8D261D47659900645C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPadGrid;
+			productName = IPadGrid;
+			productReference = 680A8D281D47659900645C07 /* IPadGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680A8D201D47659900645C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ambrish;
+				TargetAttributes = {
+					680A8D271D47659900645C07 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 680A8D231D47659900645C07 /* Build configuration list for PBXProject "IPadGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680A8D1F1D47659900645C07;
+			productRefGroup = 680A8D291D47659900645C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680A8D271D47659900645C07 /* IPadGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680A8D261D47659900645C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680A8D361D47659A00645C07 /* LaunchScreen.storyboard in Resources */,
+				680A8D331D47659A00645C07 /* Assets.xcassets in Resources */,
+				680A8D311D47659A00645C07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680A8D241D47659900645C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680A8D2E1D47659A00645C07 /* ViewController.swift in Sources */,
+				680A8D3E1D4765DE00645C07 /* AmbLayout.swift in Sources */,
+				680A8D2C1D47659A00645C07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		680A8D2F1D47659A00645C07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680A8D301D47659A00645C07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		680A8D341D47659A00645C07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680A8D351D47659A00645C07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680A8D381D47659A00645C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		680A8D391D47659A00645C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680A8D3B1D47659A00645C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IPadGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambrish.IPadGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		680A8D3C1D47659A00645C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IPadGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambrish.IPadGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680A8D231D47659900645C07 /* Build configuration list for PBXProject "IPadGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680A8D381D47659A00645C07 /* Debug */,
+				680A8D391D47659A00645C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680A8D3A1D47659A00645C07 /* Build configuration list for PBXNativeTarget "IPadGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680A8D3B1D47659A00645C07 /* Debug */,
+				680A8D3C1D47659A00645C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680A8D201D47659900645C07 /* Project object */;
+}
